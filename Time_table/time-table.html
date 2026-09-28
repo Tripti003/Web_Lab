@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<head>
+    <title>Table.html</title>
+    <style>
+       table, th, td {
+         
+            border: 0.1px grey solid;
+            border-collapse: collapse;
+            text-align: center;
+            font-family: Times New Roman, serif;
+            padding: 10px;
+        }
+        tr:nth-child(even) {
+            background-color: #DCEAF7;
+        }
+        .Project_hours {
+            background-color: #FFD9B3;
+        }
+        .lab{
+            background-color: #FFF1B8;
+        }
+        .elective{
+            background-color: #b5f7b5;
+        }
+        .break{
+            background-color: #A8DADC;
+        }
+        .header{
+            background-color: #D8B4E2;
+        }
+        .footer{
+            background-color: #F4B6B6;
+        }
+    </style>
+</head>
+<body> 
+    <h1 style="text-align:center">Time Table of 5th Sem D section</h1>
+        <table style = "width:100%">
+            <tr class="header">
+                <th>Day/Time</th>
+                <th>8:00-9:00</th>
+                <th>9:00-10:00</th>
+                <th>10:00-10:30</th>
+                <th>10:30-11:30</th>
+                <th>11:30-12:30</th>
+                <th>12:30-1:30</th>
+                <th>1:30-2:30</th>
+                <th>2:30-3:30</th>
+                <th>3:30-4:30</th>
+                <th>4:30-5:30</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td></td>
+                <td></td>
+                <td rowspan="6" style="color: #17324D;" class="break"><b>TEA BREAK</b></td>
+                <td class="elective">EVS<br>(online)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td colspan="2" class="lab">WT LAB<br>(503)</td>
+                <td>RM<br>(523)</td>
+                <td>AI<br>(523)</td>
+                <td></td>
+                <td>SE<br>(511)</td>
+                <td>TOC<br>(511)</td>
+                <td>CNS<br>(511)</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>TOC<br>(521)</td>
+                <td>AI<br>(521)</td>
+                <td>SE<br>(521)</td>
+                <td>RM<br>(521)</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td colspan="2" class="lab">CNS LAB<br>(527A)</td>
+                <td>TOC<br>(525)</td>
+                <td>SE<br>(525)</td>
+                <td>CNS<br>(525)</td>
+                <td></td>
+                <td colspan="2" class="Project_hours">Mini Project</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td class="elective">YOGA</td>
+                <td>TOC<br>(517)</td>
+                <td>SE<br>(517)</td>
+                <td>CNS<br>(517)</td>
+                <td></td>
+                <td>RM<br>(521)</td>
+                <td>AI<br>(521)</td>
+                <td></td>
+                <td></td>
+                
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td></td>
+                <td></td>
+                <td colspan="3" class="Project_hours">Mini Project</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                
+            </tr>
+            <tfoot class="footer">
+                <tr >
+                   <td colspan="11"> END OF TIME-TABLE</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
