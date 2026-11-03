@@ -45,8 +45,9 @@
 
             switch(op){
                 case '+':r=a+b; break;
-                case '-':r=a*b;break;
-                case '*':r=b==0?"Cannot divide by zero":a/b;break;
+                case '-':r=a-b;break;
+                case '*':r=a*b;break;
+                case '/':r=b==0?"Cannot divide by zero":a/b;break;
                 case '%':r=b==0?"Cannot divide by zero":a%b;break;
                 case '**':r=a**b;break;
                 case 'sqrt':r=a<0?"Invalid input":Math.sqrt(a);break;
